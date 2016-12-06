@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>awv.3/ES6</title>
+
+    <style>
+        body { background-color: #F2E175; overflow: hidden; }
+        #main { display: flex; justify-content: center; align-items: center; transform: translate3d(0,0,0); position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; overflow: hidden; transition: transform 1s; }
+        .circle { display: inline-block; box-sizing: border-box; width: 120px; height: 120px; border-radius: 100%; border: 20px solid rgba(255, 255, 255, 0.2); border-top-color: #FFF; -webkit-animation: spin 1s infinite linear; animation: spin 1s infinite linear; transition: opacity .5s ease-out; opacity: 0; }
+        @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+        @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); } }
+        .visible { opacity: 1!important; }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <div class="circle"></div>
+    </div>
+
+    <!--<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="../bower_components/signalr/jquery.signalR.min.js"></script>-->
+
+    <script src="generated/bundle.js"></script>
+
+</body>
+
+</html>
