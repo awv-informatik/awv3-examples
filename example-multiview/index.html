@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>awv.3/ES6</title>
+
+    <style>
+        body { background-color: #efefef; overflow: hidden; }
+        #main { position: absolute; top: 0; left: 0; width: 100vw; height: 100vh; overflow: hidden; display: flex; }
+        .view { flex-grow: 1; transition: flex-grow 1s; }
+        .view1 { background-color: #c23369; }
+        .view1:hover { flex-grow: 2; }
+        .view2 { background-color: #28d79f; }
+        .view2:hover { flex-grow: 2; }
+    </style>
+</head>
+
+<body>
+
+    <div id="main">
+        <div class="view view1"></div>
+        <div class="view view2"></div>
+    </div>
+    <script src="generated/bundle.js"></script>
+
+</body>
+
+</html>
