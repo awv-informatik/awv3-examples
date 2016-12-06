@@ -1,0 +1,49 @@
+{
+  "name": "example-cutter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --progress --colors",
+    "build": "node node_modules/webpack/bin/webpack --progress --colors --production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awv3-next/example-cutter.git"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-es2015-spread": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-es2015-loose": "^7.0.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1",
+    "yargs": "^4.8.0",
+    "css-loader": "^0.23.1",
+    "file-loader": "^0.9.0",
+    "img-loader": "^1.2.2",
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^2.1.1",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.3.2",
+    "vue-html-loader": "^1.2.2",
+    "vue-loader": "^8.5.2",
+    "vue-style-loader": "^1.0.0",
+    "vue": "^1.0.26",
+    "semantic-ui-css": "^2.2.1"
+  },
+  "author": "Paul Henschel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/awv3-next/example-cutter/issues"
+  },
+  "homepage": "https://github.com/awv3-next/example-cutter#readme",
+  "dependencies": {
+    "awv3": "^1.0.77"
+  }
+}

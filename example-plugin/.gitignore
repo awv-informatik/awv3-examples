@@ -1,0 +1,11 @@
+/node_modules/
+/build/
+npm-debug.log
+/.tmp/
+/.grunt/
+
+Thumbs.db
+thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
