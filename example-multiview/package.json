@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/awv3-next/example-multiview#readme",
   "dependencies": {
-    "awv3": "^1.0.71"
+    "awv3": "1.0.71"
   }
 }

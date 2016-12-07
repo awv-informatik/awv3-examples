@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/awv3-next/example-signalr#readme",
   "dependencies": {
-    "awv3": "^1.0.5",
+    "awv3": "1.0.5",
     "delay": "^1.3.1"
   }
 }

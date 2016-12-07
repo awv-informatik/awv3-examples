@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/awv3-next/example-cutter#readme",
   "dependencies": {
-    "awv3": "^1.0.97"
+    "awv3": "1.0.97"
   }
 }

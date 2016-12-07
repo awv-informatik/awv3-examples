@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/awv3-next/example-interaction#readme",
   "dependencies": {
-    "awv3": "^1.0.52",
+    "awv3": "1.0.52",
     "delay": "^1.3.1"
   }
 }
