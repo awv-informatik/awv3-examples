@@ -29,6 +29,6 @@
   },
   "homepage": "https://github.com/awv3-next/example-simple#readme",
   "dependencies": {
-    "awv3": "^1.0.4"
+    "awv3": "1.0.4"
   }
 }

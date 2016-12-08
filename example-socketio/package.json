@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/awv3-next/example-socketio#readme",
   "dependencies": {
-    "awv3": "^1.0.53",
+    "awv3": "1.0.53",
     "delay": "^1.3.1",
     "alertify.js": "^1.0.11"
   }
